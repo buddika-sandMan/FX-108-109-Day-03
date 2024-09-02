@@ -13,4 +13,3 @@ public class Starter extends Application {
         stage.show();
     }
 }
-
