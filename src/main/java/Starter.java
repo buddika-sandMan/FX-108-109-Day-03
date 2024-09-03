@@ -9,7 +9,7 @@ public class Starter extends Application {
     }
 
     public void start(@org.jetbrains.annotations.NotNull Stage stage) throws Exception{
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/add_customer_form.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/dashboard_form.fxml"))));
         stage.show();
     }
 }

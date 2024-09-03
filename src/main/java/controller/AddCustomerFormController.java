@@ -41,6 +41,8 @@ public class AddCustomerFormController {
         });
         System.out.println("=====================");
 
+        clearTextFields();
+
     }
 
     @FXML
@@ -58,4 +60,14 @@ public class AddCustomerFormController {
 
     }
 
+    private void clearTextFields() {
+        txtID.clear();
+        txtName.clear();
+        txtAddress.clear();
+        txtSalary.clear();
+    }
+
+    public void btnClearCustomerOnAction(ActionEvent actionEvent) {
+        clearTextFields();
+    }
 }
